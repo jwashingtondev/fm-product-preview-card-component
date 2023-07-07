@@ -10,6 +10,10 @@ body{
     background: hsl(30, 38%, 92%);
 }
 
+.card{
+    background: white ; 
+}
+
 h1{
     font-family: 'Fraunces', serif;
     color: hsl(212, 21%, 14%);
@@ -18,6 +22,10 @@ h1{
 p{
     font-family: 'Montserrat', sans-serif;
     color: hsl(228, 12%, 48%);
+}
+
+#discount{
+    font-family: 'Fraunces', serif;
 }
 
 button{
