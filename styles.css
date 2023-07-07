@@ -10,6 +10,16 @@ body{
     background: hsl(30, 38%, 92%);
 }
 
+h1{
+    font-family: 'Fraunces', serif;
+    color: hsl(212, 21%, 14%);
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+    color: hsl(228, 12%, 48%);
+}
+
 button{
     background:hsl(158, 36%,37%);
     color: white;
