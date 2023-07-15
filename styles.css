@@ -31,5 +31,14 @@ p{
 button{
     background:hsl(158, 36%,37%);
     color: white;
-    border-radius: 15px;
+    border: none;
+    text-align: center;
+    /* changed font of button */
+    font-family:'Montserrat', sans-serif;
+    /* changed border-radius */
+    border-radius: 10px;
+    padding: 15px 36px;
+    margin:4px 2px;
+    /* padding-left: 25px; */
+    /* padding-right: 25px; */
 }
