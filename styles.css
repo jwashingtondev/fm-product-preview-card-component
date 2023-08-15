@@ -4,14 +4,42 @@
 *{
     box-sizing: border-box;
     margin: 0;
+    padding: 0;
+}
+/* Added flex container to body */
+body .container{
+    background: hsl(30, 38%, 92%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* aligned text to center */
+    text-align: center;
+    align-content: center; 
+    flex-wrap: wrap;
 }
 
-body{
-    background: hsl(30, 38%, 92%);
+.container{
+    /* height: 15%; */
+    /* width: 85%; */
+    /* display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        flex-wrap: wrap; */
+                /* justify-content: center; */
+}
+
+.container div{
+    /* display: fl; */
 }
 
 .card{
-    background: white ; 
+    background: white; 
+
+
+    /* height: ; */
+    /* height: 70%;
+    width: 50%; */
 }
 
 h1{
@@ -60,3 +88,12 @@ i{
     padding: 1%;
     /* padding: 3px; */
 }
+
+img{
+    width: 50%;
+}
+/* .container{ */
+/* display: flex;
+    justify-content: center;
+    flex-wrap: wrap; */
+/* } */
